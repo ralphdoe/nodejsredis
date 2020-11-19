@@ -1,0 +1,27 @@
+{
+  "name": "nodejsredis",
+  "version": "1.0.0",
+  "description": "Simple Application with NodeJS to Interact with Redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralphdoe/nodejsredis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphdoe/nodejsredis/issues"
+  },
+  "homepage": "https://github.com/ralphdoe/nodejsredis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
